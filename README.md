@@ -1,2 +1,2 @@
-# Tevvin-Portfolio
-This my personal website
+# Portfolio
+This my personal website.
