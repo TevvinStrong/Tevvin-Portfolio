@@ -13,26 +13,26 @@
 
 <body>
     <div id="particles-js">
-        <div class="jumboscreen">
-            <nav>
-                <ul class="socialMedia">
-                    <!--TODO:Add add font awesome icons*/-->
-                    <a href="https://github.com/TevvinStrong">
-                        <li class="item1">Github</li>
-                    </a>
-                    <a href="https://www.linkedin.com/in/tevvin-strong-546791113/">
-                        <li class="item3">LinkedIn</li>
-                    </a>
-                    <a href="https://twitter.com/TevvinS?lang=en">
-                        <li class="item3">Twitter</li>
-                    </a>
-                </ul>
-            </nav>
+        <nav>
+            <ul class="socialMedia">
+                <!-- l just means last -->
+                <h1 class="lname">str<span>0</span>ng</h1>
+                <!--TODO:Add add font awesome icons*/-->
+                <a href="https://github.com/TevvinStrong">
+                    <li class="items">Github</li>
+                </a>
+                <a href="https://www.linkedin.com/in/tevvin-strong-546791113/">
+                    <li class="items">LinkedIn</li>
+                </a>
+                <a href="https://twitter.com/TevvinS?lang=en">
+                    <li class="items">Twitter</li>
+                </a>
+            </ul>
+        </nav>
 
-            <header class="name">
-                <h1>Tevvin Strong</h1>
-            </header>
-        </div>
+        <header class="name">
+            <h1>Tevvin</h1>
+        </header>
     </div>
     <div class="website">
         <!-- C JUST MEAN "CONTROL" NOTHING ELSE = control panel -->
@@ -153,11 +153,11 @@
             <p class="copyright">&copy; Tevvin Strong</p>
         </footer>
     </div>
-    <script scr="http://www.jsdelivr.com/#!particles.js"></script>
+    <script scr="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
-    <script>
+    <script src="particles.json">
         particlesJS.load('particles-js', 'particles.json', function () {
-            console.log('partiles.json loaded...');
+            console.log('particles.json loaded...');
         });
     </script>
 </body>
